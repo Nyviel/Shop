@@ -1,0 +1,1089 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ddddcc;
+    width: 100%;
+    height: 100%;
+}
+
+/*-------------- Main bar setup ------------ */
+
+.headerWrapper {
+    width: 100%;
+    height: 100px;
+    clear:both;
+}
+
+.navMainBar {
+    width: inherit;
+    height: inherit;
+    background-color: #eee;
+    top:0;
+    position: fixed;
+}
+
+a .logoImg {
+    height: 100px;
+    width: 100px;
+    float:left;
+    margin-left: 2%;
+}
+
+.ulMainBar {
+    margin-left: 12%;
+    width:inherit;
+}
+
+.ulMainBar li {
+    list-style: none;
+    float: left;
+    line-height:100px;
+}
+
+.ulMainBar li a {
+    text-decoration: none;
+    padding: 0 20px;
+
+    color:#b88f0b;
+    font-size: 20px;
+    font: arial;
+}
+
+.ulMainBar li a:hover {
+    color:#ff8f0b;
+}
+
+.ulCartBar {
+    list-style: none;
+    float:left;
+    line-height:100px;
+}
+
+.ulCartBar li a {
+    text-decoration: none;
+    padding: 0 20px;
+
+    color:#b88f0b;
+    font-size: 20px;
+    font: arial;
+}
+
+#cart {
+    margin-left: 850px;
+}
+
+.cartImg {
+    padding-top: 32px;
+    width: 40px;
+}
+/*-------------- End of Main bar setup ------------ */
+
+/*-------------- Side bar setup ------------ */
+
+.sidebarWrapper {
+    width: 100%;
+    height: 75px;
+    position: fixed;
+}
+
+
+.ulSideBar {
+    list-style: none;
+    width: inherit;
+    height: inherit;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid orange;
+    border-top: 1px solid orange;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+.ulSideBar li {
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 75px;
+    float:left;
+    text-align: center;
+}
+
+.ulSideBar li a:hover {
+    color: orangered;
+}
+
+.ulSideBar li a {
+    color:#b88f0b;
+    font-size: 18px;
+    font: arial;
+}
+
+.sidebarIcon {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/*-------------- End of Side bar setup ------------ */
+
+/*-------------- Home setup -------------- */
+
+.indexWrapper {
+    width: 1250px;
+    height: auto;
+    margin-left: 17.5%;
+    margin-top: 77px;
+    margin-bottom: 25px;
+    text-align: center;
+    float:left;
+    clear: both;
+    background-color: #eee;
+}
+
+.productWrapper {
+    color: #b88f0b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #ddd;
+    width: inherit;
+    height: auto;
+    clear:both;
+}
+
+.productInfoWrapper {
+    float:left;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.productImg {
+    width: 235px;
+}
+
+.productDescWrapper {
+    float:left;
+    padding: 10px;
+    width:38%;
+}
+
+.productCartWrapper {
+    float:right;
+    width: 30%;
+    height: inherit;
+    vertical-align: center;
+    padding-top: 7%;
+}
+
+.cartform input[type=submit] {
+    background: linear-gradient(90deg, #ffd343, orange);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cartform input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.cartform input[type=submit]:hover {
+    background: linear-gradient(90deg, orange, #ffd343);
+}
+
+
+/*-------------- End of Home setup -------------- */
+
+/*-------------- Comments setup -------------- */
+
+.reviewWrapper{
+    background-color: #eee;
+    width: 650px;
+    min-height: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    border-radius: 3%;
+    color: #b88f0b;
+}
+
+.commentsProductWrapper {
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.commentsProductWrapper img{
+    width: 350px;
+}
+
+.commentsRatingWrapper {
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.commentsRatingWrapper {
+    height: auto;
+}
+
+.userCommentForm input[type=submit] {
+    width: auto;
+    background: linear-gradient(90deg, orange, #ffd343);
+    color:white;
+    padding: 14px 20px;
+    margin: 20px;
+    margin-top: 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.globalRating {
+    border-bottom: 1px solid #ddd;
+}
+
+.userRating form input[type=submit] {
+    width: auto;
+    background: linear-gradient(90deg, #ffd343, orange);
+    color:white;
+    padding: 14px 20px;
+    margin: 20px;
+    margin-top: 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.userRating form input[type=submit]:hover {
+    background: linear-gradient(90deg, orange, #ffd343);
+}
+
+.commentsUserWrapper {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.userCommentForm input[type=submit] {
+    width: auto;
+    background: linear-gradient(90deg, #ffd343, orange);
+    color:white;
+    padding: 14px 20px;
+    margin: 20px;
+    margin-top: 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.userCommentForm input[type=submit]:hover {
+    background: linear-gradient(90deg, orange, #ffd343);
+}
+
+.getMessage {
+    height: 60px;
+    width: 90%;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.userMessageContent textarea {
+    height: 60px;
+    width: 90%;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.userMessage {
+    border-bottom: 1px solid #ddd;
+}
+
+.userNick {
+    text-align: left;
+    padding-left: 24px;
+    padding-top: 12px;
+}
+
+/*-------------- End of Comments setup -------------- */
+
+/*-------------- Cart setup -------------- */
+
+.cartWrapper {
+    background-color: #eee;
+    width: 650px;
+    min-height: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 125px;
+    margin-bottom: 2%;
+    text-align: center;
+    border-radius: 3%;
+    color: #b88f0b;
+}
+
+.cartProductWrapper {
+    width:inherit;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    clear: both;
+}
+
+.cartProductImgWrapper {
+    float:left;
+    width: 30%;
+}
+
+.cartProductImgWrapper img {
+    width: 150px;
+    padding-top: 10px;
+}
+
+.cartProductPriceWrapper {
+    float: left;
+    padding-top: 15px;
+    width: 35%;
+    text-align:left;
+    font-size: 18px;
+    height: auto;
+}
+
+.totalCostWrapper {
+    clear: both;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    height: auto;
+    text-align: left;
+}
+
+.deleteProdForm {
+    float:right;
+    padding-right: 10px;
+}
+
+.deleteProdForm input[type=submit] {
+    width: 100%;
+    background: linear-gradient(90deg, #FFD400, orange);
+    float:right;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deleteProdForm input[type=submit]:hover {
+    background: linear-gradient(90deg, orange, #FFD400);
+}
+
+.summaryWrapper {
+    border-top: 1px solid #ddd;
+}
+
+.totalCostWrapper {
+    float:left;
+    padding-top: 10px;
+    width: 40%;
+}
+
+.orderButtonWrapper {
+    float:right;
+    width: 20%;
+}
+
+.orderButtonForm input[type=submit] {
+    width: 100%;
+    background: linear-gradient(90deg, #FFD400, orange);
+    float:right;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.orderButtonForm input[type=submit]:hover {
+    background: linear-gradient(90deg, orange, #FFD400);
+}
+
+.orderWrapper {
+    background-color: #eee;
+    width:650px;
+    height: auto;
+    min-height: 450px;
+    margin: 0 auto;
+    margin-top:150px;
+    display: block;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.addressSelectWrapper {
+    color: #b88f0b;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.contactSelectWrapper {
+    color: #b88f0b;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.orderForm {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.orderForm input[type=submit] {
+    width: 25%;
+    background: linear-gradient(90deg, #FFD400, orange);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.orderForm input[type=submit]:hover {
+    background: linear-gradient(90deg, orange, #FFD400);
+}
+/*-------------- End of cart setup -------------- */
+
+/*-------------- Summarize order setup -------------- */
+.sumOrderWrapper {
+    background-color: #eee;
+    width:650px;
+    height: auto;
+    min-height: 450px;
+    margin: 0 auto;
+    margin-top:50px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    border-radius: 3%;
+    color: #b88f0b;
+}
+
+.chosenAdresWrapper {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.chosenContactWrapper {
+    border-bottom: 1px solid #ddd;
+}
+
+.orderCreatedWrapper {
+    background-color: #eee;
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 3%;
+    padding-bottom: 2%;
+}
+
+/*-------------- End of smmarize order setup -------------- */
+
+
+/*-------------- Profile setup -------------- */
+
+.profileFieldWrapper {
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+}
+
+.profileWrapper {
+    background-color: #eee;
+    width: 650px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.userIconWrapper {
+    height: 150px;
+    width:inherit;
+    padding-top: 30px;
+}
+
+.userIconWrapper img {
+    width: 150px;
+    height: 141px;
+}
+
+.userNameWrapper {
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #b88f0b;
+    border-bottom: #b88f0b solid 1px;
+}
+
+.userButtonsWrapper {
+    padding-top: 10px;
+}
+
+.userButtonsWrapper button {
+    background: linear-gradient(90deg, #EC9F05, #FF4E00);
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+}
+
+.userButtonsWrapper a button:hover {
+    background: linear-gradient(90deg, #FE5F75, #FC9842);
+}
+
+.userInformationWrapper {
+    color:#b88f0b;
+    padding-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: #b88f0b solid 1px;
+}
+
+.bonusButtonsWrapper button {
+    background: linear-gradient(90deg, #EC9F05, #FF4E00);
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin-top:15px;
+    margin-right:1px;
+}
+
+.bonusButtonsWrapper a button:hover {
+    background: linear-gradient(90deg, #FE5F75, #FC9842);
+}
+
+.userDeleteWrapper button {
+    background: linear-gradient(90deg, #EC9F05, #FF4E00);
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    float:right;
+    margin-top:85px;
+    margin-right: 30px;
+}
+
+.userDeleteWrapper a button:hover {
+    background: linear-gradient(90deg, #FE5F75, #FC9842);
+}
+
+.checkAdressesWrapper {
+    background-color: #eee;
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 3%;
+    padding-bottom: 2%;
+}
+
+.addAdressWrapper {
+    background-color: #eee;
+    width:650px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top:150px;
+    display: block;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.addressForm {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.addressForm input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.addressForm input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.addressForm input[type=submit] {
+    width: 100%;
+    background: linear-gradient(90deg, #FFD400, orange);
+
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addressForm input[type=submit]:hover {
+    background: linear-gradient(90deg, orange, #FFD400);
+}
+
+.checkContactsWrapper {
+    background-color: #eee;
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 3%;
+    padding-bottom: 2%;
+}
+
+.deleteContactForm {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.deleteContactForm input[type=submit] {
+    width: 100%;
+    background: linear-gradient(90deg, #FFD400, orange);
+
+    color: white;
+    padding: 14px 20px;
+    margin-top:-20px;
+    margin-bottom:20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deleteContactForm input[type=submit]:hover {
+    background: linear-gradient(90deg, orange, #FFD400);
+}
+
+.contactWrapper {
+    border-bottom: 1px solid #ddd;
+}
+.addressWrapper {
+    border-bottom: 1px solid #ddd;
+}
+.addContactWrapper {
+    background-color: #eee;
+    width:650px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top:150px;
+    display: block;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.contactForm {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.contactForm input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contactForm input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contactForm input[type=submit] {
+    width: 100%;
+    background: linear-gradient(90deg, #FFD400, orange);
+
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contactForm input[type=submit]:hover {
+    background: linear-gradient(90deg, orange, #FFD400);
+}
+
+.changePassWrapper {
+    background-color: #eee;
+    width:650px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top:150px;
+    display: block;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.passForm {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.passForm input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.passForm input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.passForm input[type=submit] {
+    width: 100%;
+    background: linear-gradient(90deg, #FFD400, orange);
+
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.passForm input[type=submit]:hover {
+    background: linear-gradient(90deg, orange, #FFD400);
+}
+
+.changeLoginWrapper {
+    background-color: #eee;
+    width:650px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top:150px;
+    display: block;
+    text-align: center;
+    border-radius: 3%;
+}
+
+
+/*-------------- End of Profile setup -------------- */
+/*-------------- Users order setup -------------- */
+
+.viewOrderWrapper {
+    background-color: #eee;
+    width:850px;
+    height: auto;
+    margin: 0 auto;
+    margin-top:78px;
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+}
+
+.viewOrderProductWrapper {
+    width:inherit;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    clear: both;
+}
+
+.singleOrderWrapper {
+    border-bottom: 1px solid #ddd;
+}
+/*-------------- End of users orders setup -------------- */
+
+/*-------------- Admin panel setup -------------- */
+.manageAllOrdersWrapper {
+    background-color: lightyellow;
+    width:70%;
+    height: auto;
+    margin: 0 auto;
+    margin-top:79px;
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+    border-radius: 3%;
+}
+
+#ordersTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#ordersTable td, #ordersTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#ordersTable tr:nth-child(even){background-color: #fffaa7;}
+
+#ordersTable tr:hover {background-color: lightgray;}
+
+#ordersTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: orange;
+  color: white;
+}
+/*-------------- End of admin panel setup -------------- */
+
+/*-------------- Signup and Login wrapper setup ------------ */
+
+.signupwrapper {
+    color: #b88f0b;
+    background-color: #eee;
+    width:650px;
+    min-height: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top:150px;
+    display: block;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.signupform {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.loginwrapper {
+    color: #b88f0b;
+    background-color: #eee;
+    width:650px;
+    min-height: 325px;
+    height: auto;
+    margin: 0 auto;
+    margin-top:150px;
+    display: block;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.loginform {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.loginform input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.loginform input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.loginform input[type=submit] {
+    width: 100%;
+    background: linear-gradient(90deg, #FFD400, orange);
+
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.loginform input[type=submit]:hover {
+    background: linear-gradient(90deg, orange, #FFD400);
+}
+
+.signupform input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.signupform input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.signupform input[type=submit] {
+    width: 100%;
+    background: linear-gradient(90deg, #FFD400, orange);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signupform input[type=submit]:hover {
+    background: linear-gradient(90deg, orange, #FFD400);
+}
+
+.loginForm {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.loginForm input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.loginForm input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.loginForm input[type=submit] {
+    width: 100%;
+    background: linear-gradient(90deg, #FFD400, orange);
+
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.loginForm input[type=submit]:hover {
+    background: linear-gradient(90deg, orange, #FFD400);
+}
+/*-------------- End of Signup and Login wrapper setup ------------ */
+
+
+/*-------------- Footer setup ------------ */
+
+footer {
+    border-top: #ffbf00 solid 3px;
+    height:100px;
+    width:inherit;
+    margin-top:300px;
+}
+
+footer p {
+    padding-top:30px;
+    padding-left: 45px;
+
+    color:#b88f0b;
+
+    font-size: 20px;
+    font: arial;
+}
+
+/*-------------- End of Footer setup ------------ */
